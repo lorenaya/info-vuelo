@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Vuelo</title>
+    <script>
+        function mostrarMensaje() {
+            alert("El vuelo de ida es a las 20:30 y el vuelo de vuelta es a las 18:58, no deja copiar el link directo de Sky.");
+        }
+    </script>
+</head>
+<body>
+    <a href="#" onclick="mostrarMensaje()">Haz clic aquí para ver la información del vuelo</a>
+</body>
+</html>
